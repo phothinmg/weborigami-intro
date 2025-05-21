@@ -1,0 +1,24 @@
+{
+  "name": "weborigami-intro",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "ori serve watch src, =debug src/site.ori",
+    "build": "ori copy src/site.ori, clear files:dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Starting point for the Web Origami language tutorial",
+  "dependencies": {
+    "@burmajs/burma-static": "^0.1.0",
+    "@weborigami/origami": "^0.3.2",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.8.3"
+  }
+}
